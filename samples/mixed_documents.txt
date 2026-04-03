@@ -1,0 +1,19 @@
+Artificial intelligence is transforming the healthcare industry by enabling faster and more accurate diagnoses. Machine learning models trained on millions of medical images can detect cancers, diabetic retinopathy, and other conditions with accuracy matching or exceeding specialist physicians.
+
+The global renewable energy market is experiencing unprecedented growth. Solar panel costs have fallen 90% over the past decade, making solar the cheapest source of new electricity generation in most countries. Wind energy capacity is expanding rapidly, particularly offshore installations.
+
+Climate scientists warn that without immediate and drastic reductions in greenhouse gas emissions, global temperatures could rise by 3 degrees Celsius by 2100. This would cause widespread ecosystem collapse, sea level rise of up to 1 metre, and displacement of hundreds of millions of people.
+
+The electric vehicle market is accelerating rapidly. Global EV sales reached 14 million units in 2023, representing 18% of all new car sales. Battery costs have fallen below $100 per kWh, approaching the threshold where EVs achieve cost parity with internal combustion engine vehicles.
+
+Quantum computing is advancing toward practical applications. IBM's latest quantum processor contains 1,121 qubits, and the company has demonstrated quantum advantage on specific computational tasks. Pharmaceutical companies are exploring quantum algorithms for drug discovery and molecular simulation.
+
+Cybersecurity threats are escalating in sophistication and frequency. Ransomware attacks cost organisations $20 billion globally in 2023. Nation-state actors are increasingly targeting critical infrastructure including power grids, water systems, and financial networks.
+
+The global semiconductor shortage has highlighted the strategic importance of chip manufacturing. The US CHIPS Act allocated $52 billion to boost domestic semiconductor production. TSMC, Samsung, and Intel are investing hundreds of billions in new fabrication facilities.
+
+Space exploration is entering a new commercial era. SpaceX's Starship, the most powerful rocket ever built, completed its first successful orbital test flight. NASA's Artemis programme aims to return humans to the Moon by 2026, with Mars missions planned for the 2030s.
+
+Blockchain technology is finding applications beyond cryptocurrency. Supply chain management, digital identity verification, and decentralised finance (DeFi) are among the most promising use cases. Central banks in over 100 countries are exploring central bank digital currencies (CBDCs).
+
+The global mental health crisis is worsening. Depression and anxiety disorders affect over 1 billion people worldwide. Digital mental health platforms and AI-powered therapy tools are emerging as scalable solutions to address the shortage of mental health professionals.
