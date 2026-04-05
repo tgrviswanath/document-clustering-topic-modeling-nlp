@@ -1,3 +1,4 @@
+import asyncio
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 from app.core.service import run_lda, run_nmf, run_kmeans
@@ -25,18 +26,30 @@ def _validate(texts: list[str], min_docs: int = 2):
 
 
 @router.post("/lda")
-def lda_endpoint(body: DocsInput):
+async def lda_endpoint(body: DocsInput):
     _validate(body.texts, min_docs=body.n_topics)
-    return run_lda(body.texts, body.n_topics, body.n_top_words)
+    try:
+        loop = asyncio.get_running_loop()
+        return await loop.run_in_executor(None, run_lda, body.texts, body.n_topics, body.n_top_words)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
 
 @router.post("/nmf")
-def nmf_endpoint(body: DocsInput):
+async def nmf_endpoint(body: DocsInput):
     _validate(body.texts, min_docs=body.n_topics)
-    return run_nmf(body.texts, body.n_topics, body.n_top_words)
+    try:
+        loop = asyncio.get_running_loop()
+        return await loop.run_in_executor(None, run_nmf, body.texts, body.n_topics, body.n_top_words)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
 
 @router.post("/cluster")
-def cluster_endpoint(body: ClusterInput):
+async def cluster_endpoint(body: ClusterInput):
     _validate(body.texts, min_docs=body.n_clusters)
-    return run_kmeans(body.texts, body.n_clusters)
+    try:
+        loop = asyncio.get_running_loop()
+        return await loop.run_in_executor(None, run_kmeans, body.texts, body.n_clusters)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
